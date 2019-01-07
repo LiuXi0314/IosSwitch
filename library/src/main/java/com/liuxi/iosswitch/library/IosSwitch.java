@@ -572,4 +572,20 @@ public class IosSwitch extends View {
         return 0xFF000000 | ((or + rGap) << 16) | ((og + gGap) << 8) | (ob + bGap);
 
     }
+
+    public void setBorderColor(int borderColor) {
+        this.borderColor = borderColor;
+    }
+
+    public void setForegroundColor(int foregroundColor) {
+        this.foregroundColor = foregroundColor;
+    }
+
+    public void setKnobColor(int knobColor) {
+        this.knobColor = knobColor;
+    }
+
+
+
+
 }
